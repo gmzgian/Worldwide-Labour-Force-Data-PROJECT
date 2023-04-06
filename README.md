@@ -16,7 +16,7 @@ The end-to-end pipeline addresses the limitations of ad-hoc analysis by providin
 ## Infrastructure
 The following tools and technologies are used:
 
-Cloud - [Google Cloud Platform](https://cloud.google.com/)
+* Cloud - [Google Cloud Platform](https://cloud.google.com/)
 
 Batch Processing - [Python](https://www.python.org/)
 
