@@ -1,7 +1,7 @@
 # Worldwide Labour Force Project - End to end data pipeline
-My final project of the Data Engineering Zoomcamp consisted in developing an End-to-end data pipeline that fetches, transforms and analyzes worldwide labour force data.
+My final project of the Data Engineering Zoomcamp from [DataTalksClub](https://github.com/DataTalksClub) consisted in developing an End-to-end data pipeline that fetches, transforms and analyzes worldwide labour force data.
 
-Through this pipeline, data is extracted from the [International Labour Organization website](https://ilostat.ilo.org/data/) and undergoes a series of carefully orchestrated processes, such as uploading to the cloud, cleaning, analysis, and visualization to provide users with accurate and up-to-date statistics on labor issues across the world. With its comprehensive data collection and batch data processing, the end-to-end data pipeline exemplifies the power of technology to drive social and economic progress.
+Through this pipeline, data is extracted from the [International Labour Organization website](https://ilostat.ilo.org/data/) and undergoes a series of carefully orchestrated processes, such as uploading to the cloud, cleaning, analysis, and visualization to provide users with accurate on labor issues across the world.
 
 ![Dashboard](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Internation%20labour%20organization%20logo.webp)
 
@@ -13,7 +13,7 @@ Firstly, data on the ILOSTAT website is presented in a pre-defined format, which
 Secondly, the website provides limited data exploration and visualization capabilities. Users may not be able to customize charts, tables, or graphs based on their specific analysis requirements. This could limit the user's ability to identify patterns, relationships, or trends in the data, which are crucial for making informed decisions.
 
 ## Solution 💡
-The end-to-end pipeline addresses the limitations of ad-hoc analysis by providing cleaned and structured data in the cloud, enabling users to conduct efficient and effective data exploration, analysis and visualization.
+The end-to-end pipeline addresses the limitations of ad-hoc analysis by providing cleaned and structured data in the cloud, enabling users to conduct efficient and effective data exploration, analysis and visualization. With its comprehensive data collection and batch data processing, this data pipeline exemplifies the power of technology to drive social and economic progress.
 
 ## Infrastructure 💻
 The following tools and technologies are used:
