@@ -49,4 +49,4 @@ Quick descriptions of the two tools not used during the Zoomcamp
 
 ## Development Steps
 1. Started a Google Cloud Platform [free account](https://cloud.google.com/free/docs/free-cloud-features#free-trial)
-2. Creation of GCP project with the name and followed the advanced steps in [here]
+2. Creation of GCP project with the name and followed the advanced steps in [here](GCP_setup/gcp_overview_setup.md)
