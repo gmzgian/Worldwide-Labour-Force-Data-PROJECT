@@ -38,4 +38,4 @@
    ```
  
 ### Terraform Workshop to create GCP Infra
-Continue [here]():
+Continue [here](https://github.com/gmzgian/Worldwide-Labour-Force-Project/tree/main/Terraform2):
