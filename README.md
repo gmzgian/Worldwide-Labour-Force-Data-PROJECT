@@ -48,9 +48,12 @@ Quick descriptions of the two tools not used during the Zoomcamp
 
 
 ## Development Steps
-1. Started a Google Cloud Platform [free account](https://cloud.google.com/free/docs/free-cloud-features#free-trial)
-2. Created of a Virtual Machine (Linux) and a GCP project with the name and followed the advanced steps in [here](GCP_setup/gcp_overview_setup.md)
-3. Made sure the follwing software is installed in the machine: Docker and Docker-Compose, Python 3 (e.g. via Anaconda), Terraform
-4. Created a workflow using Prefect as orchestrator to download data from the ILOSTAT website and upload it to Google Cloud Storage (data lake). Follow [these steps](https://github.com/gmzgian/Worldwide-Labour-Force-Project/edit/main/Data_Fetch_&_Orchestration/README.md) to orchestrate, parameterize and schedule this workflow. 
-5. Move the tables to Google BigQuery.
-6. 
+1. Started a Google Cloud Platform [free account](https://cloud.google.com/free/docs/free-cloud-features#free-trial).
+2. Created of a Virtual Machine (Linux) and a GCP project with the name and followed the advanced steps in [here](GCP_setup/gcp_overview_setup.md).
+3. Made sure the follwing software is installed in the machine: Docker and Docker-Compose, Python 3 (e.g. via Anaconda), Terraform.
+4. Created a workflow using Prefect as orchestrator to download data from the ILOSTAT website, transform it into a .parquet file and upload it to Google Cloud Storage (data lake). Follow [these steps](https://github.com/gmzgian/Worldwide-Labour-Force-Project/edit/main/Data_Fetch_&_Orchestration/README.md) to orchestrate, parameterize and schedule this workflow. 
+5. Uploaded two tables (Working-age population by sex, age and education (thousands) & Average monthly earnings of employees by sex and economic activity) to Google CLoud Storage and copied them over to Google BigQuery (Data warehouse). Parameters are commented at the end of the code [parameterized_etl_web_to_gcs_project.py](Data_Fetch_&_Orchestration/parameterized_etl_web_to_gcs_project.py).
+6. From BigQuery, I developed a [Tableau Prep Builder flow](Tableau Prep & Tableau Dashboard/DE_zoomcamp_project_UNION_cleansing_transformation.tflx) that automatically transforms & cleans the data from each table, unions them and then joins a [country_look_up table](Tableau Prep & Tableau Dashboard/Country lookup file.xlsx). Once the flow has run, it spits out a signle, new, ready-to-analyze table into Google BigQuery again.
+7. Developed a [dashboard] using Tableau by loading the brand new table created by the Tableau Prep builder flow. In the dashboard I analyze the gender pay gaps, education gaps from year 2012 to year 2022 by buidling 6 different graphs (tiles).
+
+### Thank you for taking the time to learn more about my project :)
