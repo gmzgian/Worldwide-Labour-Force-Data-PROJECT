@@ -2,6 +2,7 @@
 My final project of the Data Engineering Zoomcamp consisted in developing an End-to-end data pipeline that fetches, transforms and analyzes worldwide labour force data.
 
 Through this pipeline, data is extracted from the [International Labour Organization website](https://ilostat.ilo.org/data/) and undergoes a series of carefully orchestrated processes, such as uploading to the cloud, cleaning, analysis, and visualization to provide users with accurate and up-to-date statistics on labor issues across the world. With its comprehensive data collection and batch data processing, the end-to-end data pipeline exemplifies the power of technology to drive social and economic progress.
+
 ![Dashboard](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Internation%20labour%20organization%20logo.webp)
 
 ## Problem ❓
