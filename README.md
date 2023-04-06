@@ -2,6 +2,7 @@
 My final project of the Data Engineering Zoomcamp consisted in developing an End-to-end data pipeline that fetches, transforms and analyzes worldwide labour force data.
 
 Through this pipeline, data is extracted from the [International Labour Organization website](https://ilostat.ilo.org/data/) and undergoes a series of carefully orchestrated processes, such as uploading to the cloud, cleaning, analysis, and visualization to provide users with accurate and up-to-date statistics on labor issues across the world. With its comprehensive data collection and batch data processing, the end-to-end data pipeline exemplifies the power of technology to drive social and economic progress.
+![Dashboard](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Internation%20labour%20organization%20logo.webp)
 
 ## Problem ❓
 While the ILOSTAT website provides a wealth of valuable labor-related data, doing ad-hoc analysis with the data provided can be problematic.
@@ -28,22 +29,19 @@ The following tools and technologies are used:
 
 Quick descriptions of the two tools not used during the Zoomcamp
 * [Tableau Prep Builder](https://www.tableau.com/products/prep): Tableau Prep Builder provides a modern approach to data preparation, making it easier and faster to combine, shape, and clean data for analysis within Tableau. By providing a visual and direct path to prep your data, you can get your hands on quality data in just a few clicks.
+![Transformation_Flow](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Transformation_Flow_Tableau_Prep_Builder.png)
+
+
 * [Tableau](https://www.tableau.com/): Tableau delivers everything you need to access, visualize, and analyze your data. With an intuitive drag and drop interface, you can uncover the hidden insights you need to make impactful business decisions faster.
 
+**[Link to the live, interactive dashboard](https://public.tableau.com/views/WorldwideLabourForceAnalysis/WORLDWIDELABOURFORCEANALYSIS?:language=en-US&:display_count=n&:origin=viz_share_link)**
 
-
-
-*** add image of pipe line and tableau prep flow ***
-
-
-
-
-## Dashboard 📊
+![Dashboard](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/WORLDWIDE%20LABOUR%20FORCE%20ANALYSIS.png)
 
 
 
 
-*** add dashboard image and link to Tableau public ***
+
 
 
 
