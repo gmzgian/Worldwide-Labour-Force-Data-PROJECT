@@ -14,14 +14,20 @@ Secondly, the website provides limited data exploration and visualization capabi
 The end-to-end pipeline addresses the limitations of ad-hoc analysis by providing cleaned and structured data in the cloud, enabling users to conduct efficient and effective data exploration, analysis and visualization.
 
 ## Infrastructure
-*The following tools and technologies are used:
+The following tools and technologies are used:
 
 Cloud - [Google Cloud Platform](https://cloud.google.com/)
+
 Batch Processing - [Python](https://www.python.org/)
+
 Orchestration - [Prefect](https://www.prefect.io/)
+
 Transformation - [Tableau Prep Builder](https://www.tableau.com/products/prep)
+
 Data Lake - [Google Cloud Storage](https://cloud.google.com/storage)
+
 Data Warehouse - [BigQuery](https://cloud.google.com/bigquery)
+
 Data Visualization - [Tableau](https://www.tableau.com/)
 
 
