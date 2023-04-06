@@ -1,17 +1,10 @@
-## GCP Overview
-
-[Video](https://www.youtube.com/watch?v=18jIzE41fJ4&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=2)
-
 
 ### Project infrastructure modules in GCP:
 * Google Cloud Storage (GCS): Data Lake
 * BigQuery: Data Warehouse
 
-(Concepts explained in Week 2 - Data Ingestion)
 
 ### Initial Setup
-
-For this course, we'll use a free version (upto EUR 300 credits). 
 
 1. Create an account with your Google email ID 
 2. Setup your first [project](https://console.cloud.google.com/) if you haven't already
@@ -45,4 +38,4 @@ For this course, we'll use a free version (upto EUR 300 credits).
    ```
  
 ### Terraform Workshop to create GCP Infra
-Continue [here](./terraform): `week_1_basics_n_setup/1_terraform_gcp/terraform`
+Continue [here]():
