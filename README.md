@@ -30,7 +30,6 @@ The following tools and technologies are used:
 
 Quick descriptions of the two tools not used during the Zoomcamp
 * [Tableau Prep Builder](https://www.tableau.com/products/prep): Tableau Prep Builder provides a modern approach to data preparation, making it easier and faster to combine, shape, and clean data for analysis within Tableau. By providing a visual and direct path to prep your data, you can get your hands on quality data in just a few clicks.
-![Transformation_Flow](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Transformation_Flow_Tableau_Prep_Builder.png)
 
 
 * [Tableau](https://www.tableau.com/): Tableau delivers everything you need to access, visualize, and analyze your data. With an intuitive drag and drop interface, you can uncover the hidden insights you need to make impactful business decisions faster.
@@ -48,5 +47,9 @@ Quick descriptions of the two tools not used during the Zoomcamp
 5. Uploaded two tables (Working-age population by sex, age and education (thousands) & Average monthly earnings of employees by sex and economic activity) to Google Cloud Storage and copied them over to Google BigQuery (Data warehouse). Parameters are commented at the end of the code [parameterized_etl_web_to_gcs_project.py](Data_Fetch_&_Orchestration/parameterized_etl_web_to_gcs_project.py).
 6. From BigQuery, I developed a Tableau Prep Builder flow [DE_zoomcamp_project_UNION_cleansing_transformation.tflx](https://github.com/gmzgian/Worldwide-Labour-Force-Project/tree/main/Tableau%20Prep%20%26%20Tableau%20Dashboard) that automatically transforms & cleans the data from each table, unions them and then joins a [Country lookup file.xlsx](https://github.com/gmzgian/Worldwide-Labour-Force-Project/tree/main/Tableau%20Prep%20%26%20Tableau%20Dashboard). Once the flow has run, it spits out a single, ready-to-analyze table into Google BigQuery again.
 7. Developed a [Tableau dashboard](https://public.tableau.com/app/profile/gianmarco415data) (file: ([WORLDWIDE LABOUR FORCE ANALYSIS.twbx](https://github.com/gmzgian/Worldwide-Labour-Force-Project/tree/main/Tableau%20Prep%20%26%20Tableau%20Dashboard)) by loading the brand new table created by the Tableau Prep builder flow. In the dashboard, I analyze the gender pay gaps, education gaps from year 2012 to year 2022 by building 6 different graphs (tiles).
+
+![Transformation_Flow](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Transformation_Flow_Tableau_Prep_Builder.png)
+
+![Transformation_Flow](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Final_project_data_pipeline.png)
 
 **Thank you for taking the time to learn more about my project** 😊
