@@ -48,7 +48,11 @@ Quick descriptions of the two tools not used during the Zoomcamp
 6. From BigQuery, I developed a Tableau Prep Builder flow [DE_zoomcamp_project_UNION_cleansing_transformation.tflx](https://github.com/gmzgian/Worldwide-Labour-Force-Project/tree/main/Tableau%20Prep%20%26%20Tableau%20Dashboard) that automatically transforms & cleans the data from each table, unions them and then joins a [Country lookup file.xlsx](https://github.com/gmzgian/Worldwide-Labour-Force-Project/tree/main/Tableau%20Prep%20%26%20Tableau%20Dashboard). Once the flow has run, it spits out a single, ready-to-analyze table into Google BigQuery again.
 7. Developed a [Tableau dashboard](https://public.tableau.com/app/profile/gianmarco415data) (file: ([WORLDWIDE LABOUR FORCE ANALYSIS.twbx](https://github.com/gmzgian/Worldwide-Labour-Force-Project/tree/main/Tableau%20Prep%20%26%20Tableau%20Dashboard)) by loading the brand new table created by the Tableau Prep builder flow. In the dashboard, I analyze the gender pay gaps, education gaps from year 2012 to year 2022 by building 6 different graphs (tiles).
 
+**Tableau Prep Builder flow**
 ![Transformation_Flow](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Transformation_Flow_Tableau_Prep_Builder.png)
+
+
+**End-to-end data pipeline**
 
 ![Transformation_Flow](https://github.com/gmzgian/Worldwide-Labour-Force-Project/blob/main/Images/Final_project_data_pipeline.png)
 
