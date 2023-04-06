@@ -1,6 +1,6 @@
 ## Prefect
 
-This repo contains Python code to accompany the videos that show how to use Prefect for Data Engineering. We will create workflows to extract and load your data.
+This repo contains Python code to use with Prefect for Data Engineering purposes. We will create workflows to extract and load your data.
 
 I will use GCP's Google Cloud Storage.
 
