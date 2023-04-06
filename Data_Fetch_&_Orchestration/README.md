@@ -44,7 +44,7 @@ Create a *GCP Credentials* block in the UI.
 
 Paste your service account information from your JSON file into the *Service Account Info* block's field.
 
-![img.png](images/img.png)
+![gcp_block_prefect](Images/gcp_block_prefect.png)
 
 Create a GCS Bucket block in UI 
 
