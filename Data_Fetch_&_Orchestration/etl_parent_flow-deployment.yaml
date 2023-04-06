@@ -1,0 +1,48 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl-parent-flow'
+###
+name: Parameterized ETL
+description: Zoomcamp Deployment
+version: 8ed983be33ef71eee21231913bf67782
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+tags: []
+parameters: {"themes" : ["POP_XWAP_SEX_AGE_EDU_NB_A", "EAR_4MTH_SEX_ECO_CUR_NB_A"]}
+schedule: null
+infra_overrides: {}
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl-parent-flow
+manifest_path: null
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  _block_document_id: 269e5f65-8d0b-4f7e-9c4e-007aff681cff
+  _block_document_name: anonymous-892793bc-1d41-4258-908a-2d50dfb92d9b
+  _is_anonymous: true
+  block_type_slug: process
+  _block_type_slug: process
+storage: null
+path: /home/gian/data-engineering-zoomcamp/week_7_project
+entrypoint: parameterized_etl_web_to_gcs_project.py:etl_parent_flow
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties:
+    themes:
+      title: themes
+      default:
+      - warehouse
+      position: 0
+      type: array
+      items:
+        type: string
+  required: null
+  definitions: null
