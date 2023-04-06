@@ -49,4 +49,8 @@ Quick descriptions of the two tools not used during the Zoomcamp
 
 ## Development Steps
 1. Started a Google Cloud Platform [free account](https://cloud.google.com/free/docs/free-cloud-features#free-trial)
-2. Creation of GCP project with the name and followed the advanced steps in [here](GCP_setup/gcp_overview_setup.md)
+2. Created of a Virtual Machine (Linux) and a GCP project with the name and followed the advanced steps in [here](GCP_setup/gcp_overview_setup.md)
+3. Made sure the follwing software is installed in the machine: Docker and Docker-Compose, Python 3 (e.g. via Anaconda), Terraform
+4. Created a workflow using Prefect as orchestrator to download data from the ILOSTAT website and upload it to Google Cloud Storage (data lake). Follow [these steps](https://github.com/gmzgian/Worldwide-Labour-Force-Project/edit/main/Data_Fetch_&_Orchestration/README.md) to orchestrate, parameterize and schedule this workflow. 
+5. Move the tables to Google BigQuery.
+6. 
