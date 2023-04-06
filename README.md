@@ -17,6 +17,8 @@ The end-to-end pipeline addresses the limitations of ad-hoc analysis by providin
 The following tools and technologies are used:
 
 * Cloud - [Google Cloud Platform](https://cloud.google.com/)
+* Infrastructure as Code software - [Terraform](https://www.terraform.io/)
+* Containerization - [Docker](https://www.docker.com/), [Docker Compose](https://docs.docker.com/compose/)
 * Batch Processing - [Python](https://www.python.org/)
 * Orchestration - [Prefect](https://www.prefect.io/)
 * Transformation - [Tableau Prep Builder](https://www.tableau.com/products/prep)
@@ -27,3 +29,24 @@ The following tools and technologies are used:
 Quick descriptions of the two tools not used during the Zoomcamp
 * [Tableau Prep Builder](https://www.tableau.com/products/prep): Tableau Prep Builder provides a modern approach to data preparation, making it easier and faster to combine, shape, and clean data for analysis within Tableau. By providing a visual and direct path to prep your data, you can get your hands on quality data in just a few clicks.
 * [Tableau](https://www.tableau.com/): Tableau delivers everything you need to access, visualize, and analyze your data. With an intuitive drag and drop interface, you can uncover the hidden insights you need to make impactful business decisions faster.
+
+
+
+
+*** add image of pipe line and tableau prep flow ***
+
+
+
+
+## Dashboard
+
+
+
+
+*** add dashboard image and link to Tableau public ***
+
+
+
+## Development Steps
+1. Started a Google Cloud Platform [free account](https://cloud.google.com/free/docs/free-cloud-features#free-trial)
+2. Creation of GCP project with the name "Capstone-Luis-Oliveira" and followed the advanced steps in here
